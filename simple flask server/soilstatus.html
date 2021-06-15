@@ -1,0 +1,11 @@
+{% extends "template.html" %}
+{% block main %}
+<div align=center>
+      <h2>SoilStatus</h2><br />
+
+      {% for i in soilstatus %}
+      <h4>{{i}}</h4><br />
+      {% endfor %}
+
+</div>
+{% endblock %}
